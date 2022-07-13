@@ -14,7 +14,7 @@ function addTodo() {
 
   if (!todoItem) {
     error.innerHTML = 'Todo cannot be empty';
-    return;
+    return false;
   }
 
   error.innerHTML = '';
