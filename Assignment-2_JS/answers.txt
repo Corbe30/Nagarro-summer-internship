@@ -1,0 +1,41 @@
+1
+10
+
+10
+100
+
+100
+error
+
+undefined
+
+undefined
+
+undefined
+
+10
+20
+30
+2
+
+function y(){
+    console.log(a);
+}
+7
+
+1
+2
+3
+4
+5
+
+let obj1 = {
+    fname: 'shashank',
+    lname: 'agarwal',
+};
+let obj2 = obj1;
+
+
+for (var key of Object.keys(obj1)) {
+    console.log(key + ":" + obj1[key])
+}
