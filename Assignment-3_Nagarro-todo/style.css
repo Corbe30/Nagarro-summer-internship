@@ -1,0 +1,38 @@
+body {
+  padding: 5% 30% 5% 30%;
+}
+
+.flexBox {
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  gap: 10px;
+  width: 100%;
+}
+
+
+#todos {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.todo {
+  display: flex;
+  width: 100%;
+}
+
+p {
+  flex: 1;
+  margin-left: 2%;
+}
+
+
+.delete:hover {
+  cursor: pointer;
+}
+
+
+
