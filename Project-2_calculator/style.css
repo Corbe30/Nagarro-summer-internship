@@ -1,0 +1,168 @@
+body{
+    background-color: white;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    
+}
+
+button {
+    margin-right: 4px;
+    text-align: center;
+    vertical-align: middle;
+    color: #090909;
+    padding: 0.7em ;
+    font-size: 18px;
+    flex: 1;
+    border-radius: 0.5em;
+    background: #ffffff;
+    border: 1px solid #e8e8e8;
+    transition: all .3s;
+    box-shadow: 6px 6px 12px #c5c5c5,
+                -6px -6px 12px #ffffff;
+}
+
+button:hover {
+    background-color: rgb(242, 242, 242);
+    z-index: 2;
+}
+
+button:active {
+box-shadow: 4px 4px 12px #ffffff,
+            -4px -4px 12px #ffffff;
+}
+
+
+.outer-frame{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-height: 650px;
+    max-width: 420px;
+    width: 90%;
+    padding: 50px;
+    background-color: rgb(243, 243, 243);
+    border-radius: 50px;
+    box-shadow:  20px 20px 60px #d9d9d9,
+                 -20px -20px 60px #ffffff;
+}
+
+.display-result{
+    background: #fefefe;
+    border: 1.5px solid rgb(173, 173, 173);
+    border-radius: .5em;
+    width: 100%;
+    display: flex;
+    
+}
+
+.input{
+    text-align: right;
+    /* overflow: scroll; */
+    width: 90%;
+    height: 70px;
+    font-size: 2em;
+    font-family: 'Jura', sans-serif;
+}
+
+
+.flex-row{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.enter{
+    background-color: orange;
+    color:white;
+    padding-left: 30%;
+    text-align:start;
+}
+
+
+
+input[type="radio"] {
+	display: none;
+}
+
+input[type="radio"]:checked+label span {
+	transform: scale(1.25);
+}
+
+input[type="radio"]:checked+label .red {
+	border: 2px solid #711313;
+}
+
+input[type="radio"]:checked+label .orange {
+	border: 2px solid #873a08;
+}
+
+input[type="radio"]:checked+label .olive {
+	border: 2px solid #505a0b;
+}
+
+input[type="radio"]:checked+label .teal {
+	border: 2px solid #003633;
+}
+
+input[type="radio"]:checked+label .blue {
+	border: 2px solid #103f62;
+}
+
+input[type="radio"]:checked+label .pink {
+	border: 2px solid #851554;
+}
+
+label {
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+	border-radius: 100%;
+    margin-right: 5px;
+    margin-left: 5px;
+	cursor: pointer;
+}
+
+label:hover span {
+	transform: scale(1.25);
+}
+
+label span {
+	display: block;
+	width: 100%;
+	height: 100%;
+	transition: transform 0.2s ease-in-out;
+}
+
+label span.red {
+	background: #DB2828;
+}
+
+label span.orange {
+	background: #F2711C;
+}
+
+label span.olive {
+	background: #B5CC18;
+}
+
+label span.teal {
+	background: #00B5AD;
+}
+
+label span.blue {
+	background: #2185D0;
+}
+
+label span.pink {
+	background: #E03997;
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jura:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="container">
+        <div style="margin-bottom: 50px;">
+
+            <input type="radio" name="color" id="#F2711C" checked/>
+            <label for="#F2711C"><span class="orange"></span></label>
+
+            <input type="radio" name="color" id="#DB2828"/>
+            <label for="#DB2828"><span class="red"></span></label>
+            
+            <input type="radio" name="color" id="#B5CC18" />
+            <label for="#B5CC18"><span class="olive"></span></label>
+            
+            <input type="radio" name="color" id="#00B5AD" />
+            <label for="#00B5AD"><span class="teal"></span></label>
+            
+            <input type="radio" name="color" id="#2185D0" />
+            <label for="#2185D0"><span class="blue"></span></label>
+            
+            <input type="radio" name="color" id="#E03997" />
+            <label for="#E03997"><span class="pink"></span></label>
+        </div>
+        <div class="outer-frame">
+
+            <div class="display-result">
+                <div class="input text-nowrap">Hi, Shashank</div>
+            </div>
+
+            <div class="flex-row">
+                <button class="value">C</button>
+                <button class="value">^</button>
+                <button class="value">%</button>
+                <button class="value">÷</button>
+            </div>
+
+            <div class="flex-row">
+                <button class="value">7</button>
+                <button class="value">8</button>
+                <button class="value">9</button>
+                <button class="value">×</button>
+            </div>
+
+            <div class="flex-row">
+                <button class="value">4</button>
+                <button class="value">5</button>
+                <button class="value">6</button>
+                <button class="value">-</button>
+            </div>
+
+            <div class="flex-row">
+                <button class="value">1</button>
+                <button class="value">2</button>
+                <button class="value">3</button>
+                <button class="value">+</button>
+            </div>
+
+            <div class="flex-row">
+                <button class="value">.</button>
+                <button class="value">0</button>
+                <button class="value enter">=</button>
+                <!-- <button class="value">=</button> -->
+            </div>
+        </div>
+
+    </div>
+    <script  src="jquery.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
