@@ -1,6 +1,11 @@
 body {
   padding: 5% 30% 5% 30%;
 }
+@media only screen and (max-width: 600px) {
+  body {
+    padding: 5% 5% 5% 5%;
+  }
+}
 
 .flexBox {
   display: flex;
