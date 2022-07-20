@@ -1,0 +1,19 @@
+body{
+    padding: 5%;
+}
+input[type=text], input[type=password]{
+    padding-left: 2rem;
+}
+
+label{
+    margin-top: 1rem;
+}
+
+span{
+    position: absolute;
+    margin-left: 0.75rem;
+    height: 2.25rem;
+    display: flex;
+    align-items: center;
+    color: gray;
+}
