@@ -4,7 +4,8 @@ Assignments and projects at my 2-month internship at Nagarro. I went above and b
 
 ### [Modern to-do list](https://corbe30.github.io/Nagarro-summer-internship/Assignment-4_Nagarro-todo-jQuery/)
 ![](https://raw.githubusercontent.com/Corbe30/Nagarro-summer-internship/main/images/to-do.png)
-A responsive modern to-do list web app that supports speech-to-text, reorder tasks, edit & mark-as-done support and local storage on the fly. Inspired by minimalism.
+A responsive modern to-do list web app that supports speech-to-text, reorder tasks, edit & mark-as-done support and local storage on the fly. Inspired by minimalism. 
+Reordering is supported by SortableJS. Web Speech API is used to implement speech-to-text feature. jQuery was used to build the rest.
 
 ### [Neumorphic Calculator](https://corbe30.github.io/Nagarro-summer-internship/Project-2_calculator/)
 ![](https://raw.githubusercontent.com/Corbe30/Nagarro-summer-internship/main/images/calculator.png)
