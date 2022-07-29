@@ -37,6 +37,7 @@ body {
   transform: translateY(-50%);
   cursor: pointer;
   transition: 200ms;
+  z-index: 5;
 }
 
 .next-btn:hover,
