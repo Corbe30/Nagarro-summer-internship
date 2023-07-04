@@ -28,8 +28,9 @@ app.get('/', (req, res)=>{
 
 app.get('/initDB', async (req, res)=>{
     const dropTable = await client.query('DROP TABLE comments');
-    const createTable = await client.query('CREATE TABLE IF NOT EXISTS comments(id INT, name TEXT, comments TEXT, phone TEXT, email TEXT);');
-    const firstValue = await client.query(`INSERT INTO comments(id, name, comments, phone, email) VALUES(1, 'Shashank', 'this is a test comment.', '9910712463', 'shashankc1705@gmail.com');`);
+    const createTable = await client.query('CREATE TABLE IF NOT EXISTS comments(id INT, name TEXT, comment TEXT, phone TEXT, email TEXT);');
+    const firstValue = await client.query(`INSERT INTO comments(id, name, comment, phone, email) VALUES(1, 'Shashank', 'this is a test comment.', '9910712463', 'shashankc1705@gmail.com');`);
+    res.redirect('/users');
 })
 
 app.get('/users', async (req, res)=>{
