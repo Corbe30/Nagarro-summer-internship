@@ -11,7 +11,7 @@ app.use(express.urlencoded({extended:true})); // body object is now accessible
 const { Client } = require('pg');
 
 const client = new Client({
-  connectionString: process.env.DATABASE_URL || 'postgres://cuadlnhjvdofsc:88357016e5b012b31df27f213cb72816711e2ed360144c519e1b501ebb860b9b@ec2-176-34-215-248.eu-west-1.compute.amazonaws.com:5432/ded5hhlqq9629n',
+  connectionString: process.env.DATABASE_URL || 'postgres://comments_4ews_user:C2OTkpFo5Lv0OOyFUWIVaU6P9M9YaCtf@dpg-cii8bpiip7vpelqhkkeg-a.singapore-postgres.render.com/comments_4ews',
   ssl: {
     rejectUnauthorized: false
   }
@@ -80,7 +80,7 @@ app.get('/users/:id/delete', async (req, res)=>{
     res.redirect('/users');
 })
 
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 5432;
 
 app.listen(port, ()=>{
     console.log('server connected');
