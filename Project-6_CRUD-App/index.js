@@ -27,7 +27,7 @@ app.get('/', (req, res)=>{
 })
 
 app.get('/users', async (req, res)=>{
-
+    const createTable = await client.query('CREATE TABLE IF NOT EXISTS comments(id INT, name TEXT, comment TEXT);');
     const result = await client.query('SELECT * FROM comments ORDER BY id;');
     comments = result.rows;
     // console.log(comments)
