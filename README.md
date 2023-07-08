@@ -15,6 +15,6 @@ An aesthetically-pleaseing calculator with keyboard input and theme feature.
 ![](https://raw.githubusercontent.com/Corbe30/Nagarro-summer-internship/main/images/HRMS.png)
 An HRMS CRUD application. Fetches data from Heroku Postgres database. User can Create, Read, Update and Delete (CRUD) employee details. Backend build using Express and PostgreSQL. Frontend build wiht ejs and styled with Bootstrap. Used [PostgreSQL](https://marketplace.visualstudio.com/items?itemName=ckolkman.vscode-postgres) extension on VScode to query the Heroku Postgres database. The project enabled me to explore following concepts: async/await, Express, Routing (path and query parameters), RESTful API, PostgreSQL, Git, templating engine (ejs).
 
-### [Comicbooks E-Commerce Website](https://comicbook-store..onrender.com/initDB)
+### [Comicbooks E-Commerce Website](https://comicbook-store..onrender.com/)
 ![](https://raw.githubusercontent.com/Corbe30/Nagarro-summer-internship/main/images/CorbeBookStore.png)
 E‑commerce website which supports viewing products list, adding items to cart, updating quantity and payment with Stripe. HTML, CSS, Javascript, Node.js, MySQL, EJS, Express, Node.js, localStorage and Stripe.
