@@ -11,6 +11,10 @@ Reordering is supported by SortableJS. Web Speech API is used to implement speec
 ![](https://raw.githubusercontent.com/Corbe30/Nagarro-summer-internship/main/images/calculator.png)
 An aesthetically-pleaseing calculator with keyboard input and theme feature.
 
-### [Employee Management System (CRUD)](https://corbe-crud-app.herokuapp.com/users)
+### [Employee Management System (CRUD)](https://crud-app-965l.onrender.com/initDB)
 ![](https://raw.githubusercontent.com/Corbe30/Nagarro-summer-internship/main/images/HRMS.png)
 An HRMS CRUD application. Fetches data from Heroku Postgres database. User can Create, Read, Update and Delete (CRUD) employee details. Backend build using Express and PostgreSQL. Frontend build wiht ejs and styled with Bootstrap. Used [PostgreSQL](https://marketplace.visualstudio.com/items?itemName=ckolkman.vscode-postgres) extension on VScode to query the Heroku Postgres database. The project enabled me to explore following concepts: async/await, Express, Routing (path and query parameters), RESTful API, PostgreSQL, Git, templating engine (ejs).
+
+### [Employee Management System (CRUD)](https://comicbook-store..onrender.com/initDB)
+![](https://raw.githubusercontent.com/Corbe30/Nagarro-summer-internship/main/images/CorbeBookStore.png)
+E‑commerce website which supports viewing products list, adding items to cart, updating quantity and payment with Stripe. HTML, CSS, Javascript, Node.js, MySQL, EJS, Express, Node.js, localStorage and Stripe.
